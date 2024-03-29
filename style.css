@@ -1,0 +1,21 @@
+/* Grundlegende Styles */
+header { ... }
+.navbar { ... }
+.logo { ... }
+.nav-links { ... }
+.nav-links li { ... }
+.nav-links li a { ... }
+.header-right { ... }
+#language-select { ... }
+#site-search { ... }
+.hamburger { ... }
+.hamburger span { ... }
+
+/* Responsivität */
+@media (max-width: 768px) {
+  .nav-links { ... } /* Verstecke die Links */
+  .hamburger { ... } /* Zeige Hamburger Icon */
+}
+
+/* Hamburger Menü Toggle */
+.hamburger.active + .nav-links { ... } /* Zeige Links in Mobile Ansicht */
